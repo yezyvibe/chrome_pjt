@@ -2,6 +2,8 @@ const toDoForm = document.querySelector("#todo-form");
 const toDoInput = document.querySelector("#todo-input");
 const toDoList = document.querySelector("#todo-list");
 
+// const HIDDEN_CLASSNAME = "hidden";
+// const USERNAME_KEY = "username";
 const TODOS_KEY = "todos";
 let toDos = []
 
@@ -43,3 +45,4 @@ function handleToDoSubmit(event) {
 
 
 toDoForm.addEventListener("submit", handleToDoSubmit);
+
